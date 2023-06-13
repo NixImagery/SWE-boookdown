@@ -1,0 +1,12 @@
+bookdown::gitbook:
+  number_sections: false
+bookdown::pdf_book:
+  documentclass: scrartcl
+  latex_engine: xelatex
+  citation_package: default
+  number_sections: false
+  toc_depth: 2
+  keep_tex: no
+  lang: en-GB
+  date: \today
+  papersize: a4

@@ -1,0 +1,14 @@
+book_filename: "Book"
+language:
+  ui:
+    chapter_name: "Chapter "
+    appendix_name: "Appendix "
+delete_merged_file: true
+output_dir: "docs"
+
+rmd_files: [
+  'index.Rmd'
+  # ,'chapter1.Rmd'
+  # ,'chapter2.Rmd'
+  # ,'chapter3.Rmd'
+]

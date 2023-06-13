@@ -1,0 +1,18 @@
+---
+title: "Small Working Example"
+author: "Nick Hood"
+date: >
+  `r format(Sys.time(), format="%c")`
+site: bookdown::bookdown_site
+github-repo: "Niximagery/SWE-bookdown"
+bibliography: swe.bib
+---
+
+# Home
+
+"And yet I remembered." [@lee1960kill 267].
+
+```{r data1, echo=FALSE}
+mystuff = c(123, 234, 345, 456, 567)
+boxplot(mystuff)
+```
